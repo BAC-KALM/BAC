@@ -23,15 +23,20 @@
     </head>
     <body>
         <div>
-        <a href="index.html"> home </a> <br>
-            <a href="profile.jsp"> profile </a> <br>
-            <a href="competition.html"> competitions</a> <br>
-            <a href="calender.html"> calender </a> <br>
-            <a href="news.html"> news </a> <br>
+            <!-- <a href="index.html"> home </a> -->
+            <br>
+            <a href="profile.jsp"> profile </a> 
+            <br>
+            <a href="competition.html"> competitions</a> 
+            <br>
+            <a href="calender.html"> calender </a> 
+            <br>
+            <a href="news.html"> news </a> 
+            <br>
         </div>
         
         <div>
-            <form ACTION="search.java" METHOD="POST">
+           <form ACTION="search.java" METHOD="POST">
            <label for="search"> search for students </label> <INPUT id= "name" type=text size=20 name="SName"> 
            <INPUT TYPE="submit" VALUE="search"> 
            </form>
