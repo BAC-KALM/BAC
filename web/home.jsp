@@ -8,8 +8,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>case competition</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+        background: url(https://s3.amazonaws.com/symp.csm.usprod/hough-ufl/files/bb8/bb8c07facca110426ebee2ee57ea3f1c.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+        }
+   </style>
     </head>
     <body>
         <div>
