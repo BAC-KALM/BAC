@@ -24,6 +24,7 @@
     <body>
         <div>
             <!-- <a href="index.html"> home </a> -->
+            <!-- new app -->
             <br>
             <a href="profile.jsp"> profile </a> 
             <br>
