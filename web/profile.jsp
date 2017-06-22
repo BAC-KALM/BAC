@@ -34,10 +34,6 @@
             nav ul a {
                 text-decoration: none;
             }
-            
-            article{
-                float: left;
-            }
         </style>
         <script>      
     function viewmypic(mypic,imgfile) {        
@@ -52,9 +48,9 @@
     <body>
         <nav>
             <ul>
-                <li><a href="index.html"> <font size = "10" color = "white"> home </font> </a> <br>
+                <li><a href="home.jsp"> <font size = "10" color = "white"> home </font> </a> <br>
                 </li>
-                <li><a href="profile.html"> <font size = "10" color = "white"> profile </font> </a> <br>
+                <li><a href="profile.jsp"> <font size = "10" color = "white"> profile </font> </a> <br>
                 </li>
                 <li><a href="competition.html"> <font size = "10" color = "white">competitions </font> </a> <br>
                 </li>
@@ -63,7 +59,7 @@
                 <li> <a href="news.html"> <font size = "10" color = "white">news </font> </a> <br> </li>
             </ul>
         </nav>
-        <article>
+        <div style="background-color: white; float: left">
         <form action="action_page.php">
             First name:<br>
             <input type="text" name="firstname">
@@ -382,12 +378,12 @@
             <input type="radio" name=“scaling” value=“5”> 5<br>
             <input type="button" value= submit onclick="location.href = '要前往的網頁連結'">
             <input name="imgfile" type="file" id="imgfile" size="40"  />      
-        </form>      
-        </article>
+        </form>
+        </div>
         <img name="showimg" id="showimg" src="" style="display:none;" alt=“Upload photo” />
     </div>      
     <div style="display:none">      
     </div>      
-</form> 
+</form>
 </body>
 </html>

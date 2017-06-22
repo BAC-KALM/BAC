@@ -73,9 +73,9 @@
 
         <nav>
             <ul>
-                <li><a href="index.html"> <font size = "10" color = "white"> home </font> </a> <br>
+                <li><a href="home.jsp"> <font size = "10" color = "white"> home </font> </a> <br>
                 </li>
-                <li><a href="profile.html"> <font size = "10" color = "white"> profile </font> </a> <br>
+                <li><a href="profile.jsp"> <font size = "10" color = "white"> profile </font> </a> <br>
                 </li>
                 <li><a href="competition.html"> <font size = "10" color = "white">competitions </font> </a> <br>
                 </li>
@@ -85,6 +85,7 @@
             </ul>
         </nav>
 
+        <div style="float: right">
         <section id = sidebar>
 
             <form ACTION="search.java" METHOD="POST">
@@ -92,8 +93,8 @@
                 <INPUT TYPE="submit" VALUE="search"> 
             </form>
             <a href="algorithm.java"> <font size = "5" color = "white"> find best teammates </font> </a> <br>
-
         </section>
+        </div>
         <article>
             <p>
                 Previous Competitions
