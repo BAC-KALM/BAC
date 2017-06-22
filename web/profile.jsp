@@ -18,6 +18,26 @@
                 -o-background-size: cover;
                 background-size: cover;
             }
+            nav {
+                float: left;
+                max-width: 400px;
+                margin: 0;
+                padding: 1em;
+            }
+
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            nav ul a {
+                text-decoration: none;
+            }
+            
+            article{
+                float: left;
+            }
         </style>
         <script>      
     function viewmypic(mypic,imgfile) {        
@@ -30,6 +50,20 @@
         </script>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="index.html"> <font size = "10" color = "white"> home </font> </a> <br>
+                </li>
+                <li><a href="profile.html"> <font size = "10" color = "white"> profile </font> </a> <br>
+                </li>
+                <li><a href="competition.html"> <font size = "10" color = "white">competitions </font> </a> <br>
+                </li>
+                <li><a href="calender.html"> <font size = "10" color = "white">calender </font> </a> <br>
+                </li>
+                <li> <a href="news.html"> <font size = "10" color = "white">news </font> </a> <br> </li>
+            </ul>
+        </nav>
+        <article>
         <form action="action_page.php">
             First name:<br>
             <input type="text" name="firstname">
@@ -349,6 +383,7 @@
             <input type="button" value= submit onclick="location.href = '要前往的網頁連結'">
             <input name="imgfile" type="file" id="imgfile" size="40"  />      
         </form>      
+        </article>
         <img name="showimg" id="showimg" src="" style="display:none;" alt=“Upload photo” />
     </div>      
     <div style="display:none">      
